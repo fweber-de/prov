@@ -1,0 +1,13 @@
+{
+    "name": "fweber-de/prov",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Florian Weber",
+            "email": "florian.weber@fweber.info"
+        }
+    ],
+    "require": {
+        "symfony/console": "^3.2"
+    }
+}
