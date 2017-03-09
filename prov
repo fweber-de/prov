@@ -5,9 +5,11 @@ require __DIR__.'/vendor/autoload.php';
 
 use Symfony\Component\Console\Application;
 use Prov\Command\SetVhostCommand;
+use Prov\Command\ListVhostCommand;
 
 $application = new Application();
 
 $application->add(new SetVhostCommand());
+$application->add(new ListVhostCommand());
 
 $application->run();
